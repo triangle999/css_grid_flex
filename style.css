@@ -1,0 +1,166 @@
+/* ------------------------------------ */
+/* 🌐 Feuille de style de l'atelier CSS : Choisir entre Grid ou Flexbox */
+/* ------------------------------------ */
+
+/* Importation de la police d'écriture */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f8fafc;
+  color: #64748b;
+}
+
+section {
+  margin-bottom: 47.8px;
+}
+
+/* À vous d'ajouter les sélecteurs et propriétés nécessaires
+   pour chaque section de la maquette */
+
+.navbar {
+  border: 1px solid #64748b;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.flex-nav {
+  border: 1px solid #da1cda;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item-end {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.notification {
+  border: 1px solid #1c29da;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.formations {
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.grid-formations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.formation-title {
+  font-size: 1.25rem;
+  background-color: #2563EB;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 12px;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.border {
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.timer {
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 4px;
+}
+
+.dev-bord {
+  border-radius: 2px;
+  background-color: #DBEAFE;
+  color: #1D4ED8;
+  padding: 4px;
+}
+
+.formation-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #2563EB;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;  
+  border-radius: 4px;
+}
+
+.formation-price {
+  font-weight: bold;
+  color: #1E293B;
+  padding-top: 8px;
+}
+
+h4 {
+  color: #1E293B;
+}
+
+.marg {
+  margin: 8px 0px 8px 0px;
+}
+
+.grid-article {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.name {
+  margin-top: 1em;
+  display: flex;
+  gap: 2em;
+}
+
+.flex-langage {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.grey {
+  background-color: #F1F5F9;
+  padding: 0.5em;
+  color:#475569;
+}

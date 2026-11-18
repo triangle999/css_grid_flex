@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atelier Grid vs Flexbox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <!-- Section 1 : Navigation principale -->
+    <section class="section-navbar">
+      <div class="navbar">
+        <h1>Navigation principale</h1>
+        <div class="nav">
+          <div class="flex-nav">
+            <div class="nav-item">TechPro</div>
+            <div class="nav-item">Accueil</div>
+            <div class="nav-item">Produits</div>
+            <div class="nav-item">Services</div>
+            <div class="nav-item">Contact</div>
+            <div class="nav-item-end">
+              <div>Se connecter</div>
+              <div>S'inscrire</div>
+            </div>
+          </div>
+
+          <div class="notification">
+            <div>Justification : Flexbox est plus approprié pour cette disposition.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 : Nos formations populaires -->
+    <section class="section-formations">
+      <div class="formations">
+        <h1>Nos formations populaires</h1>
+        <div class="flex-formation">
+          <div class="grid-formations">
+            <div class="formation-item">
+              <div class="border">
+                <div class="formation-title">
+                  <h1>JavaScript</h1>
+                </div>
+                <div class="timer">
+                  <div class="dev-bord">
+                    Développement
+                  </div>
+                  <div>
+                    12h de cours
+                  </div>
+                </div>
+                <div class="formation-description">
+                  <h4>JavaScript Moderne </h4>
+                  <p class="marg">
+                    Maîtrisez ES6+, async/await et les frameworks modernes
+                  </p>
+                  <div class="formation-button">
+                    <div class="formation-price">299 €</div>
+                    <button>S'inscrire</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="formation-item">
+              <div class="border">
+                <div class="formation-title">
+                  <h1>React</h1>
+                </div>
+                <div class="timer">
+                  <div class="dev-bord">
+                    Framework
+                  </div>
+                  <div>
+                    15h de cours
+                  </div>
+                </div>
+                <div class="formation-description">
+                  <h4>React Avancé</h4>
+                  <p class="marg">
+                    Créez des applications web performantes avec React
+                  </p>
+                  <div class="formation-button">
+                    <div class="formation-price">399 €</div>
+                    <button>S'inscrire</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="formation-item">
+              <div class="border">
+                <div class="formation-title">
+                  <h1>Node.js</h1>
+                </div>
+                <div class="timer">
+                  <div class="dev-bord">
+                    Backend
+                  </div>
+                  <div>
+                    18h de cours
+                  </div>
+                </div>
+                <div class="formation-description">
+                  <h4>Node.js & Express</h4>
+                  <p class="marg">
+                    Développez des API REST et applications serveur
+                  </p>
+                  <div class="formation-button">
+                    <div class="formation-price">449 €</div>
+                    <button>S'inscrire</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="notification">
+            <div>Justification : Grid est plus approprié pour cette disposition.</div>
+          </div>
+        </div>
+
+    </section>
+
+    <section class="section-article">
+      <div class="article">
+        <h1>Article à la une</h1>
+        <div class="grid-article">
+          <div class="formation-title">
+            <h3>Intelligence Artificielle</h3>
+          </div>
+
+          <div>
+
+            <div>
+              <div class="timer">
+                <div class="dev-bord">
+                  Technologies
+                </div>
+                <div>
+                  10 min de lecture
+                </div>
+              </div>
+              <h3>L'Impact de l'IA sur le Développement Web en 2024</h3>
+              <p>
+                L'intelligence artificielle révolutionne la façon dont nous concevons et développons des applications
+                web.
+                Découvrez les dernières innovations et leur impact sur l'industrie du développement...
+              </p>
+              <div class="name">
+                <div>
+                  <img src="hero.png" height="30em" width="30em">
+                </div>
+                <div>
+                  <div>
+                    Marie Laurent
+                  </div>
+                  <div>
+                    Lead Developer @ TechPro
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="notification">
+        <div>Justification : Grid est plus approprié pour cette disposition.</div>
+      </div>
+    </section>
+
+    <section class="section-technologies">
+      <h1>Technologies maîtrisées</h1>
+      <div class="flex-langage">
+        <div class="grey">React.js</div>
+        <div class="grey">Vue.js</div>
+        <div class="grey">Node.js</div>
+        <div class="grey">TypeScript</div>
+        <div class="grey">Python</div>
+        <div class="grey">Docker</div>
+        <div class="grey">AWS</div>
+      </div>
+      <div class="notification">
+        <div>Justification : Grid est plus approprié pour cette disposition.</div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
