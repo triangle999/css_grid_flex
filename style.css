@@ -74,7 +74,6 @@ section {
 .grid-formations {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
 }
 
 .formation-title {
@@ -96,6 +95,8 @@ section {
   padding: 16px;
   margin-top: 16px;
   margin-bottom: 16px;
+  height: 27em;
+  width: 20em;
 }
 
 .timer {
@@ -122,7 +123,7 @@ button {
   background-color: #2563EB;
   color: #ffffff;
   border: none;
-  padding: 8px 16px;  
+  padding: 8px 16px;
   border-radius: 4px;
 }
 
@@ -157,10 +158,51 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 1em;
+  padding: 1em 0em 1em 0em;
 }
 
 .grey {
   background-color: #F1F5F9;
   padding: 0.5em;
-  color:#475569;
+  color: #475569;
+}
+
+.ml {
+  text-align: center;
+  background-color: #2563EB;
+  color: #ffffff;
+  padding: 1em;
+  border-radius: 100px;
+}
+
+.projet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px #64748b solid;
+  margin: 8px 0px 8px 0px;
+  padding: 15px;
+  gap: 15px;
+  border-radius: 20px;
+}
+
+.bord-help {
+  background-color: #2563EB;
+  color: #F1F5F9;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 20em;
+  
+}
+
+.bord-help1 {
+  background-color: #2563EB;
+  color: #F1F5F9;
+  grid-column: 2/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  text-align: center;
 }
