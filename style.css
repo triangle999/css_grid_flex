@@ -48,9 +48,10 @@ section {
 }
 
 .flex-nav {
-  border: 1px solid #da1cda;
   display: flex;
   justify-content: space-between;
+  margin: 5px 0px 5px 0px;
+  padding: 4px;
 }
 
 .nav-item-end {
